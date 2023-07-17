@@ -8,13 +8,13 @@ import Layout from "./components/layout/Layout";
 function App() {
   return (
     <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" exact={true} element={<AllMeetupsPage />} />
-          <Route path="/new-meetup" element={<NewMeetupPage />} />
-          <Route path="/favorites" element={<FavoritesPage />} />
-        </Routes>
-      </Layout>
+        <Layout>
+          <Routes>
+            <Route path="/" exact={true} element={<AllMeetupsPage />} />
+            <Route path="/new-meetup" element={<NewMeetupPage />} />
+            <Route path="/favorites" element={<FavoritesPage />} />
+          </Routes>
+        </Layout>
     </Router>
   );
 }
